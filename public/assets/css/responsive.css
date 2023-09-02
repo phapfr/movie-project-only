@@ -1,0 +1,80 @@
+@media (max-width: 1080px) {
+    /* Header */
+    #header .navbar .navbar__menu {
+        display: none;
+        flex-direction: column;
+        text-align: center;
+        left: 550px;
+        top: 100px;
+        /* height: 100px; */
+    }
+
+    #bar {
+        display: block;
+    }
+
+    /* nav {
+        display: none;
+    } */
+}
+
+@media (max-width: 991px) {
+    html {
+        font-size: 60%;
+    }
+    #header {
+        padding: 0 1rem;
+    }
+
+    /* Phim moi Page */
+    .container .container__phim__moi {
+        grid-template-columns: auto auto auto;
+    }
+}
+
+@media (max-width: 880px) {
+    .container {
+        padding: 40px;
+    }
+
+    .container .container__phim__moi {
+        grid-template-columns: auto auto;
+    }
+}
+
+@media (max-width: 760px) {
+    .container {
+        padding: 30px;
+    }
+
+    .container .container__detail-movie {
+        flex-direction: column;
+    }
+
+    .container .container__detail-movie .container__detail-img {
+        width: 100%;
+        height: 700px;
+    }
+}
+
+@media (max-width: 740px) {
+    .container__detail-title {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 610px) {
+    .container .container__phim__moi {
+        grid-template-columns: auto;
+    }
+
+    .container .container__detail-movie .container__detail-img {
+        height: 550px;
+    }
+}
+
+@media (max-width: 400px) {
+    .container .container__detail-movie .container__detail-img {
+        height: 400px;
+    }
+}
